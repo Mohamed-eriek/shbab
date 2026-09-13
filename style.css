@@ -1,13 +1,13 @@
 :root {
   --teal-deep: #1f3d3d;
   --teal-mid: #2c5454;
-  --gold: #4F8C8C;
+  --gold: #4f8c8c;
   --gold-soft: #f3c888;
   --paper: #f7f4ee;
   --ink: #22201d;
   --ink-soft: #5b5750;
   --line: #b9b4a9;
-  --pink: #F8AFA4;
+  --pink: #f8afa4;
   --surface: #ffffff;
 
   --primary: var(--teal-deep);
@@ -25,7 +25,9 @@ body {
   font-family: "Tajawal", sans-serif;
   color: var(--ink);
   padding: 32px 16px 64px;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
 }
 
 body.dark-mode {
@@ -98,7 +100,9 @@ form {
   border-top: none;
   border-radius: 0 0 18px 18px;
   padding: 30px 28px 32px;
-  transition: background 0.3s ease, border-color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .field {
@@ -203,7 +207,7 @@ input::placeholder {
 }
 
 .field-error {
-  color: #C0392B;
+  color: #c0392b;
   font-size: 13px;
   margin-top: 8px;
   margin-bottom: 0;
@@ -212,12 +216,12 @@ input::placeholder {
 .field.has-error input[type="text"],
 .field.has-error input[type="email"],
 .field.has-error input[type="tel"] {
-  border-color: #C0392B;
+  border-color: #c0392b;
 }
 
 .field.has-error .choice span,
 .field.has-error .session-item {
-  border-color: #C0392B;
+  border-color: #c0392b;
 }
 
 .session-item {
@@ -314,7 +318,10 @@ button[type="submit"]:focus-visible {
   justify-content: center;
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  transition: background 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.15s ease;
   z-index: 10;
 }
 
@@ -395,7 +402,9 @@ button[type="submit"]:focus-visible {
   border-radius: 0 0 18px 18px;
   padding: 44px 28px;
   text-align: center;
-  transition: background 0.3s ease, border-color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .success-icon {
